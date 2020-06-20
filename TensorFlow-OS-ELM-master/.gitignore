@@ -1,0 +1,8 @@
+*.out
+.vscode/
+__pycache__/
+weights/*
+datasets/*
+results/*
+models/*
+*.pkl

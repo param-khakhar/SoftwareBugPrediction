@@ -1,0 +1,36 @@
+Learning Algorithm,Average Recall,Standard Deviation
+,,
+AdaBoost (Logistic Regression),0.64,0.07
+LR + OS-ELM (hybrid),0.67,0.075
+Bagging (LR),0.67,0.06
+Logistic Regression,0.68,0.07
+,,
+OS-ELM,0.65,0.08
+,,
+Naive Bayes,0.65,0.08
+,,
+Random Forest,0.53,0.07
+,,
+Gradient Boosting,0.55,0.06
+,,
+"SVM(""poly"")",0.6,0.08
+"Bagging(SVM(""poly""))",0.59,0.07
+"Bagging (SVM(""rbf""))",0.48,0.05
+"SVM(""rbf"")",0.5,0.04
+"SVM(""linear"")",0.72,0.16
+"SVM(""sigmoid"")",0.71,0.11
+"Bagging(SVM(""linear""))",0.7,0.07
+"Bagging (SVM(""sigmoid""))",0.71,0.1
+"AdaBoost(SVM(""linear""))",0.68,0.1
+"AdaBoost(SVM(""poly""))",0.74,0.03
+"AdaBoost(SVM(""sigmoid""))",0.56,0.17
+"AdaBoost(SVM(""rbf""))",0.52,0.04
+,,
+"Max-Voting (5, SVM(""rbf""))",0.57,0.07
+"Max-Vote (5,SVM(""poly""))",0.58,0.08
+"Max-Voting(3,SVM(""poly""))",0.61,0.06
+"Max-Voting (3, SVM(""rbf""))",0.61,0.05
+"Max-Voting (5, SVM(""linear""))",0.57,0.08
+"Max-Vote (5,SVM(""sigmoid""))",0.57,0.14
+"Max-Voting(3,SVM(""linear""))",0.62,0.06
+"Max-Voting (3, SVM(""sigmoid""))",0.64,0.07
